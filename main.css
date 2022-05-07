@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+.heading
+{
+  border-radius: 1rem;
+  color: white;
+  text-shadow: #313131;
+  font-style: oblique;
+  font-family: 'Macondo', cursive;
+  background-color: #96A6B3;
+  padding: 1rem;
+  
+}
+.right
+{
+text-align: right;  
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0px 16px 0px 16px;
+  border-bottom: 3px solid gray;
+
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #fff;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+.end{
+  color: white;
+  background-color: #143666;
+  text-align: right;
+  font-style: italic;
+  text-shadow: #313131;
+}
+#section-footer{
+  color: white;
+  text-shadow: #313131;
+  background-color: #143666;
+  padding-top: 2rem;
+}
+.footer{
+  background-color: var(--bright-yellow);
+  padding: 1rem 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  border-top-right-radius: 1rem;
+}
+
+.footer h1{
+  margin: 0.5rem;
+}
+
+.footer .link{
+  color: var(--off-white);
+}
+
+.list-non-bullet{
+  list-style-type: none;
+  
+}
+
+.list-item-inline{
+  display: inline;
+  padding-right: 0.5rem;
+
+}

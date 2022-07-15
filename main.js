@@ -35,6 +35,7 @@ function displayResults (weather) {
 
   let hilow = document.querySelector('.hi-low');
   hilow.innerText = `${Math.round(weather.main.temp_min)}°C / ${(Math.round(weather.main.temp_min)*9/5)+32}°F`;
+  
 }
 
 function dateBuilder (d) {
